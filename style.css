@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.slider_bg_1{
+    background-image: url(./backgraound\ section\ 1\ image.png);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#carouselExampleControls h3{
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 120px;
+    color: white;
+}
+#carouselExampleControls p{
+    font-size: 20px;
+    color: white;
+}
+
+.sec4{
+    background: #040E27;
+    padding: 50px 0;
+}
+.total input[type="text"]{
+    /* width: 250px; */
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #363E52;
+    background-color: transparent;
+    color: #fff;
+}
+.total input[id="datepicker"]{
+    /* width: 250px; */
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #363E52;
+    background-color: transparent;
+    color: #fff;
+}
+.input-field2 a{
+    display: inline-block;
+    padding: 7px 20px;
+    text-decoration: none;   
+}
+.sec6{
+    /* background-image: url(./background\ sec5.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 61px 0px;
+    z-index: -1;
+    opacity: .7;
+    background-color: #363E52;
+}
+.sec9{
+    background-image: url(./video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 50px 0px;
+}
+.sec9 h3{
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 80px;
+}
+.sec9 span{
+    padding: 23px 26px;
+    background-color: #61c7b7;
+    border-color: #76e8d7 !important;
+}
+@media screen and (max-width:576px) and (min-width:320px){
+   #carouselExampleControls h3{
+    font-size: 60px;
+   }
+   .sec4 .row .col-12 form input{
+    width: 100% !important;
+   }
+   .sec5 .sec5-card{
+    padding:10px 5px !important;
+   }
+   .sec3 p{
+    font-size: 20px;
+   }
+   .sec6 .col-12{
+    padding: 0px !important;
+   }
+  .sec6 .col-12 p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .sec6 .col-12 h2{
+    font-size: 24px !important;
+  }
+  .sec6 .col-lg-7 input{
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .sec6 .col-lg-7 .btn{
+    display: inline-block !important;
+    width: 100% !important;
+  }
+  .sec7 p{
+    font-size: 16px !important;
+  }
+  .sec11 .cards{
+    padding-bottom: 20px !important;
+  }
+}
